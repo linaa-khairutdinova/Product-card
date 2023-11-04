@@ -1,0 +1,31 @@
+@media(max-width: 425px){
+    .container{
+        width: 320px;
+    }
+
+    .col{
+        float: none;
+        width: 100%;
+    }
+
+    .product-img img {
+        padding: 24px 50px;
+    }
+
+}
+
+@media(min-width: 425px) and (max-width: 768px){
+    .container{
+        width: 648px;
+    }
+
+    .col{
+        float: left;
+        width: 50%;
+    }
+
+    .product-img img {
+        padding: 24px 50px;
+    }
+
+}
